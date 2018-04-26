@@ -1,0 +1,121 @@
+:root {
+
+    /*Consolidated UIv1 and UIv2 colors*/
+    --white: hexa(#ffffff, 1);
+    --black: hexa(#333333, 1);
+    --lighter-green: color(var(--light-green) tint(75%));
+    --light-green: hexa(#ecfbf5, 1);
+    --load: hexa(#fafafa, 1);
+    --light-edge: hexa(#eeeeee, 1);
+    --gray-light: hexa(#f4f4f4, 1);
+    --gray-medium: hexa(#cccccc, 1);
+    --gray-medium-dark: hexa(#666666, 1);
+    --gray-dark: hexa(#888888, 1);
+    --dark: hexa(#5c5c5c, 1);
+    --concrete: hexa(#a7a7a7, 1);
+    --active-success: color(var(--success) shade(25%));
+    --success: hexa(#16bc9c, 1);
+    --warning: hexa(#f0ad44, 1);
+    --stop: hexa(#e74330, 1);
+    --workspace-label: hexa(#19148E, 1);
+    --fabricate-label: hexa(#16BC9C, 1);
+    --top-nav-header-border: hexa(#d9d9d9, 1);
+    --fabricate-side-panel: hexa(#EEF2F3,1);
+    --notification: hexa(#0c0a70, 1);
+    --link: hexa(#5b87f2, 1);
+    --link-hover: hexa(#2c64ee, 1);
+    --success-link: var(--success);
+    --success-link-hover: color(var(--success) shade(25%));
+    --baby: hexa(#8bd7ff, 1);
+    --error: hexa(#e74330, 1);
+    --mauve: hexa(#bbb5c3, 1);
+
+    /*UIv3 Colors*/
+    --gray: hexa(#838383, 1);
+    --divider: hexa(#d8d8d8, 1);
+    --side-nav-bg: hexa(#d9dbe0, 1);
+    --inactive: hexa(#f0f4f5, 1);
+    --viewer-background: hexa(#d9dbe0, 1);
+    --active-toolbar: hexa(#91e8d8, 1);
+    --border: hexa(#afafaf, 1);
+    --disabled: hexa(#d5d4d4, 1);
+    --member: hexa(#3b7794, 1);
+
+    /*alerts*/
+    --UIv1-success-bg: hexa(#dbf9f3, 1);
+    --UIv1-success-border: hexa(#16bc9c, 1);
+    --UIv1-success-txt: hexa(#16bc9c, 1);
+
+    --UIv1-info-bg: hexa(#d9edf7, 1);
+    --UIv1-info-border: hexa(#bce8f1, 1);
+    --UIv1-info-txt: hexa(#31708f, 1);
+
+    --UIv1-warning-bg: hexa(#fcf8e3, 1);
+    --UIv1-warning-border: hexa(#faebcc, 1);
+    --UIv1-warning-txt: hexa(#8a6d3b, 1);
+
+    --UIv1-danger-bg: hexa(#f2dede, 1);
+    --UIv1-danger-border: hexa(#ebccd1, 1);
+    --UIv1-danger-txt: hexa(#a94442, 1);
+}
+
+
+:export {
+    /*Consolidated UIv1 and UIv2 colors*/
+    white: var(--white);
+    black: var(--black);
+    lighterGreen: var(--lighter-green);
+    lightGreen: var(--light-green);
+    load: var(--load);
+    lightEdge: var(--light-edge);
+    grayLight: var(--gray-light);
+    grayMedium: var(--gray-medium);
+    grayMediumDark: var(--gray-medium-dark);
+    grayDark: var(--gray-dark);
+    dark: var(--dark);
+    concrete: var(--concrete);
+    activeSuccess: var(--active-success);
+    success: var(--success);
+    warning: var(--warning);
+    stop: var(--stop);
+    workspaceLabel: var(--workspace-label);
+    fabricateLabel: var(--fabricate-label);
+    topNavHeaderBorder: var(--top-nav-header-border);
+    fabricateSidePanel: var(--fabricate-side-panel);
+    notification: var(--notification);
+    link: var(--link);
+    linkHover: var(--link-hover);
+    successLink: var(--success);
+    successLinkHover: var(--success-link-hover);
+    baby: var(--baby);
+    error: var(--error);
+    mauve: var(--mauve);
+
+    /*UIv3 Colors*/
+    gray: var(--gray);
+    divider: var(--divider);
+    sideNavBg: var(--side-nav-bg);
+    inactive: var(--inactive);
+    viewerBackground: var(--viewer-background);
+    activeToolbar: var(--active-toolbar);
+    border: var(--border);
+    disabled: var(--disabled);
+    member: var(--member);
+
+    /*alerts*/
+    uIv1SuccessBg: var(--UIv1-success-bg);
+    uIv1SuccessBorder: var(--UIv1-success-border);
+    uIv1SuccessTxt: var(--UIv1-success-txt);
+
+    uIv1InfoBg: var(--UIv1-info-bg);
+    uIv1InfoBorder: var(--UIv1-info-border);
+    uIv1InfoTxt: var(--UIv1-info-txt);
+
+    uIv1WarningBg: var(--UIv1-warning-bg);
+    uIv1WarningBorder: var(--UIv1-warning-border);
+    uIv1WarningTxt: var(--UIv1-warning-txt);
+
+    uIv1DangerBg: var(--UIv1-danger-bg);
+    uIv1DangerBorder: var(--UIv1-danger-border);
+    uIv1DangerTxt: var(--UIv1-danger-txt);
+}
