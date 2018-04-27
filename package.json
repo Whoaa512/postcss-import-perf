@@ -49,7 +49,7 @@
     "postcss-custom-media": "^6.0.0",
     "postcss-define-property": "^0.5.0",
     "postcss-devtools": "^1.1.1",
-    "postcss-import": "^11.1.0",
+    "postcss-import": "Whoaa512/postcss-import#develop",
     "postcss-loader": "^2.1.4",
     "postcss-mixins": "^6.2.0",
     "raw-loader": "^0.5.1",
